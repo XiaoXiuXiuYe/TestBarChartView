@@ -17,6 +17,7 @@
 		C400D2AC21ABF89500DDFDFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C400D2AB21ABF89500DDFDFC /* main.m */; };
 		C400D2B621ABF89500DDFDFC /* TestBarChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C400D2B521ABF89500DDFDFC /* TestBarChartViewTests.m */; };
 		C400D2C121ABF89500DDFDFC /* TestBarChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C400D2C021ABF89500DDFDFC /* TestBarChartViewUITests.m */; };
+		C400D2CF21ABF9EB00DDFDFC /* QQ20181126-170359-HD.gif in Resources */ = {isa = PBXBuildFile; fileRef = C400D2CE21ABF9EB00DDFDFC /* QQ20181126-170359-HD.gif */; };
 		F471F7A92FCD1DCC6648C8C4 /* Pods_TestBarChartView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40CBB7DA3B712CA35ABF7C0 /* Pods_TestBarChartView.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		C400D2BC21ABF89500DDFDFC /* TestBarChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBarChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C400D2C021ABF89500DDFDFC /* TestBarChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBarChartViewUITests.m; sourceTree = "<group>"; };
 		C400D2C221ABF89500DDFDFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C400D2CE21ABF9EB00DDFDFC /* QQ20181126-170359-HD.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "QQ20181126-170359-HD.gif"; sourceTree = "<group>"; };
 		E0B8F4DEB79397A3EDE7A948 /* Pods-TestBarChartView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBarChartView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBarChartView/Pods-TestBarChartView.release.xcconfig"; sourceTree = "<group>"; };
 		E40CBB7DA3B712CA35ABF7C0 /* Pods_TestBarChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBarChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -141,6 +143,7 @@
 		C400D29B21ABF89100DDFDFC /* TestBarChartView */ = {
 			isa = PBXGroup;
 			children = (
+				C400D2CE21ABF9EB00DDFDFC /* QQ20181126-170359-HD.gif */,
 				C400D29C21ABF89100DDFDFC /* AppDelegate.h */,
 				C400D29D21ABF89100DDFDFC /* AppDelegate.m */,
 				C400D29F21ABF89100DDFDFC /* ViewController.h */,
@@ -281,6 +284,7 @@
 			files = (
 				C400D2A921ABF89500DDFDFC /* LaunchScreen.storyboard in Resources */,
 				C400D2A621ABF89500DDFDFC /* Assets.xcassets in Resources */,
+				C400D2CF21ABF9EB00DDFDFC /* QQ20181126-170359-HD.gif in Resources */,
 				C400D2A421ABF89100DDFDFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,7 +564,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SMM8XQDLZK;
 				INFOPLIST_FILE = TestBarChartView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.summer.TestBarChartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -575,7 +582,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SMM8XQDLZK;
 				INFOPLIST_FILE = TestBarChartView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.summer.TestBarChartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -590,7 +600,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SMM8XQDLZK;
 				INFOPLIST_FILE = TestBarChartViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.summer.TestBarChartViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -606,7 +620,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SMM8XQDLZK;
 				INFOPLIST_FILE = TestBarChartViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.summer.TestBarChartViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -621,7 +639,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SMM8XQDLZK;
 				INFOPLIST_FILE = TestBarChartViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.summer.TestBarChartViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -636,7 +658,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SMM8XQDLZK;
 				INFOPLIST_FILE = TestBarChartViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.summer.TestBarChartViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
