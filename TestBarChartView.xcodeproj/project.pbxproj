@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08001DD55BDE2034248C0848 /* Pods_TestBarChartViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236764D1A79963F232D5D23C /* Pods_TestBarChartViewUITests.framework */; };
+		2BC4F2CDECEC81CADBAF9F28 /* Pods_TestBarChartViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D0447D619FD88512178A78 /* Pods_TestBarChartViewTests.framework */; };
+		C400D29E21ABF89100DDFDFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C400D29D21ABF89100DDFDFC /* AppDelegate.m */; };
+		C400D2A121ABF89100DDFDFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C400D2A021ABF89100DDFDFC /* ViewController.m */; };
+		C400D2A421ABF89100DDFDFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C400D2A221ABF89100DDFDFC /* Main.storyboard */; };
+		C400D2A621ABF89500DDFDFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C400D2A521ABF89500DDFDFC /* Assets.xcassets */; };
+		C400D2A921ABF89500DDFDFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C400D2A721ABF89500DDFDFC /* LaunchScreen.storyboard */; };
+		C400D2AC21ABF89500DDFDFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C400D2AB21ABF89500DDFDFC /* main.m */; };
+		C400D2B621ABF89500DDFDFC /* TestBarChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C400D2B521ABF89500DDFDFC /* TestBarChartViewTests.m */; };
+		C400D2C121ABF89500DDFDFC /* TestBarChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C400D2C021ABF89500DDFDFC /* TestBarChartViewUITests.m */; };
+		F471F7A92FCD1DCC6648C8C4 /* Pods_TestBarChartView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40CBB7DA3B712CA35ABF7C0 /* Pods_TestBarChartView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C400D2B221ABF89500DDFDFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C400D29121ABF89100DDFDFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C400D29821ABF89100DDFDFC;
+			remoteInfo = TestBarChartView;
+		};
+		C400D2BD21ABF89500DDFDFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C400D29121ABF89100DDFDFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C400D29821ABF89100DDFDFC;
+			remoteInfo = TestBarChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		236764D1A79963F232D5D23C /* Pods_TestBarChartViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBarChartViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A7E918D2657645640D5C06 /* Pods-TestBarChartView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBarChartView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBarChartView/Pods-TestBarChartView.debug.xcconfig"; sourceTree = "<group>"; };
+		27D0447D619FD88512178A78 /* Pods_TestBarChartViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBarChartViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B43429C9C2DF2D4D38D0E4 /* Pods-TestBarChartViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBarChartViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBarChartViewTests/Pods-TestBarChartViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A80E8D7B28CDC0A271480189 /* Pods-TestBarChartViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBarChartViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBarChartViewUITests/Pods-TestBarChartViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC84B256B2CE4C21089C2ED6 /* Pods-TestBarChartViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBarChartViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBarChartViewTests/Pods-TestBarChartViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF42BADB898C2685C68A334E /* Pods-TestBarChartViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBarChartViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBarChartViewUITests/Pods-TestBarChartViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C400D29921ABF89100DDFDFC /* TestBarChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBarChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C400D29C21ABF89100DDFDFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C400D29D21ABF89100DDFDFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C400D29F21ABF89100DDFDFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C400D2A021ABF89100DDFDFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C400D2A321ABF89100DDFDFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C400D2A521ABF89500DDFDFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C400D2A821ABF89500DDFDFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C400D2AA21ABF89500DDFDFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C400D2AB21ABF89500DDFDFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C400D2B121ABF89500DDFDFC /* TestBarChartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBarChartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C400D2B521ABF89500DDFDFC /* TestBarChartViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBarChartViewTests.m; sourceTree = "<group>"; };
+		C400D2B721ABF89500DDFDFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C400D2BC21ABF89500DDFDFC /* TestBarChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBarChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C400D2C021ABF89500DDFDFC /* TestBarChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBarChartViewUITests.m; sourceTree = "<group>"; };
+		C400D2C221ABF89500DDFDFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0B8F4DEB79397A3EDE7A948 /* Pods-TestBarChartView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBarChartView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBarChartView/Pods-TestBarChartView.release.xcconfig"; sourceTree = "<group>"; };
+		E40CBB7DA3B712CA35ABF7C0 /* Pods_TestBarChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBarChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C400D29621ABF89100DDFDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F471F7A92FCD1DCC6648C8C4 /* Pods_TestBarChartView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C400D2AE21ABF89500DDFDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC4F2CDECEC81CADBAF9F28 /* Pods_TestBarChartViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C400D2B921ABF89500DDFDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08001DD55BDE2034248C0848 /* Pods_TestBarChartViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EB20B01FD90AF74B065EE18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E40CBB7DA3B712CA35ABF7C0 /* Pods_TestBarChartView.framework */,
+				27D0447D619FD88512178A78 /* Pods_TestBarChartViewTests.framework */,
+				236764D1A79963F232D5D23C /* Pods_TestBarChartViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		792DCDAA4131F9806858D3CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23A7E918D2657645640D5C06 /* Pods-TestBarChartView.debug.xcconfig */,
+				E0B8F4DEB79397A3EDE7A948 /* Pods-TestBarChartView.release.xcconfig */,
+				28B43429C9C2DF2D4D38D0E4 /* Pods-TestBarChartViewTests.debug.xcconfig */,
+				AC84B256B2CE4C21089C2ED6 /* Pods-TestBarChartViewTests.release.xcconfig */,
+				AF42BADB898C2685C68A334E /* Pods-TestBarChartViewUITests.debug.xcconfig */,
+				A80E8D7B28CDC0A271480189 /* Pods-TestBarChartViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C400D29021ABF89100DDFDFC = {
+			isa = PBXGroup;
+			children = (
+				C400D29B21ABF89100DDFDFC /* TestBarChartView */,
+				C400D2B421ABF89500DDFDFC /* TestBarChartViewTests */,
+				C400D2BF21ABF89500DDFDFC /* TestBarChartViewUITests */,
+				C400D29A21ABF89100DDFDFC /* Products */,
+				792DCDAA4131F9806858D3CC /* Pods */,
+				5EB20B01FD90AF74B065EE18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C400D29A21ABF89100DDFDFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C400D29921ABF89100DDFDFC /* TestBarChartView.app */,
+				C400D2B121ABF89500DDFDFC /* TestBarChartViewTests.xctest */,
+				C400D2BC21ABF89500DDFDFC /* TestBarChartViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C400D29B21ABF89100DDFDFC /* TestBarChartView */ = {
+			isa = PBXGroup;
+			children = (
+				C400D29C21ABF89100DDFDFC /* AppDelegate.h */,
+				C400D29D21ABF89100DDFDFC /* AppDelegate.m */,
+				C400D29F21ABF89100DDFDFC /* ViewController.h */,
+				C400D2A021ABF89100DDFDFC /* ViewController.m */,
+				C400D2A221ABF89100DDFDFC /* Main.storyboard */,
+				C400D2A521ABF89500DDFDFC /* Assets.xcassets */,
+				C400D2A721ABF89500DDFDFC /* LaunchScreen.storyboard */,
+				C400D2AA21ABF89500DDFDFC /* Info.plist */,
+				C400D2AB21ABF89500DDFDFC /* main.m */,
+			);
+			path = TestBarChartView;
+			sourceTree = "<group>";
+		};
+		C400D2B421ABF89500DDFDFC /* TestBarChartViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C400D2B521ABF89500DDFDFC /* TestBarChartViewTests.m */,
+				C400D2B721ABF89500DDFDFC /* Info.plist */,
+			);
+			path = TestBarChartViewTests;
+			sourceTree = "<group>";
+		};
+		C400D2BF21ABF89500DDFDFC /* TestBarChartViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C400D2C021ABF89500DDFDFC /* TestBarChartViewUITests.m */,
+				C400D2C221ABF89500DDFDFC /* Info.plist */,
+			);
+			path = TestBarChartViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C400D29821ABF89100DDFDFC /* TestBarChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C400D2C521ABF89500DDFDFC /* Build configuration list for PBXNativeTarget "TestBarChartView" */;
+			buildPhases = (
+				0E7C54CE5CCD6C130E097727 /* [CP] Check Pods Manifest.lock */,
+				C400D29521ABF89100DDFDFC /* Sources */,
+				C400D29621ABF89100DDFDFC /* Frameworks */,
+				C400D29721ABF89100DDFDFC /* Resources */,
+				21BCABEE1C6E861338F513C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestBarChartView;
+			productName = TestBarChartView;
+			productReference = C400D29921ABF89100DDFDFC /* TestBarChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C400D2B021ABF89500DDFDFC /* TestBarChartViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C400D2C821ABF89500DDFDFC /* Build configuration list for PBXNativeTarget "TestBarChartViewTests" */;
+			buildPhases = (
+				F5A7141A8B4FE3898E7844EE /* [CP] Check Pods Manifest.lock */,
+				C400D2AD21ABF89500DDFDFC /* Sources */,
+				C400D2AE21ABF89500DDFDFC /* Frameworks */,
+				C400D2AF21ABF89500DDFDFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C400D2B321ABF89500DDFDFC /* PBXTargetDependency */,
+			);
+			name = TestBarChartViewTests;
+			productName = TestBarChartViewTests;
+			productReference = C400D2B121ABF89500DDFDFC /* TestBarChartViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C400D2BB21ABF89500DDFDFC /* TestBarChartViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C400D2CB21ABF89500DDFDFC /* Build configuration list for PBXNativeTarget "TestBarChartViewUITests" */;
+			buildPhases = (
+				29D4861E02118880FF4C37A8 /* [CP] Check Pods Manifest.lock */,
+				C400D2B821ABF89500DDFDFC /* Sources */,
+				C400D2B921ABF89500DDFDFC /* Frameworks */,
+				C400D2BA21ABF89500DDFDFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C400D2BE21ABF89500DDFDFC /* PBXTargetDependency */,
+			);
+			name = TestBarChartViewUITests;
+			productName = TestBarChartViewUITests;
+			productReference = C400D2BC21ABF89500DDFDFC /* TestBarChartViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C400D29121ABF89100DDFDFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Summer;
+				TargetAttributes = {
+					C400D29821ABF89100DDFDFC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C400D2B021ABF89500DDFDFC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C400D29821ABF89100DDFDFC;
+					};
+					C400D2BB21ABF89500DDFDFC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C400D29821ABF89100DDFDFC;
+					};
+				};
+			};
+			buildConfigurationList = C400D29421ABF89100DDFDFC /* Build configuration list for PBXProject "TestBarChartView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C400D29021ABF89100DDFDFC;
+			productRefGroup = C400D29A21ABF89100DDFDFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C400D29821ABF89100DDFDFC /* TestBarChartView */,
+				C400D2B021ABF89500DDFDFC /* TestBarChartViewTests */,
+				C400D2BB21ABF89500DDFDFC /* TestBarChartViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C400D29721ABF89100DDFDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C400D2A921ABF89500DDFDFC /* LaunchScreen.storyboard in Resources */,
+				C400D2A621ABF89500DDFDFC /* Assets.xcassets in Resources */,
+				C400D2A421ABF89100DDFDFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C400D2AF21ABF89500DDFDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C400D2BA21ABF89500DDFDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E7C54CE5CCD6C130E097727 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestBarChartView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21BCABEE1C6E861338F513C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestBarChartView/Pods-TestBarChartView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestBarChartView/Pods-TestBarChartView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29D4861E02118880FF4C37A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestBarChartViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A7141A8B4FE3898E7844EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestBarChartViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C400D29521ABF89100DDFDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C400D2A121ABF89100DDFDFC /* ViewController.m in Sources */,
+				C400D2AC21ABF89500DDFDFC /* main.m in Sources */,
+				C400D29E21ABF89100DDFDFC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C400D2AD21ABF89500DDFDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C400D2B621ABF89500DDFDFC /* TestBarChartViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C400D2B821ABF89500DDFDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C400D2C121ABF89500DDFDFC /* TestBarChartViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C400D2B321ABF89500DDFDFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C400D29821ABF89100DDFDFC /* TestBarChartView */;
+			targetProxy = C400D2B221ABF89500DDFDFC /* PBXContainerItemProxy */;
+		};
+		C400D2BE21ABF89500DDFDFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C400D29821ABF89100DDFDFC /* TestBarChartView */;
+			targetProxy = C400D2BD21ABF89500DDFDFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C400D2A221ABF89100DDFDFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C400D2A321ABF89100DDFDFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C400D2A721ABF89500DDFDFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C400D2A821ABF89500DDFDFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C400D2C321ABF89500DDFDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C400D2C421ABF89500DDFDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C400D2C621ABF89500DDFDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A7E918D2657645640D5C06 /* Pods-TestBarChartView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SMM8XQDLZK;
+				INFOPLIST_FILE = TestBarChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.summer.TestBarChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C400D2C721ABF89500DDFDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B8F4DEB79397A3EDE7A948 /* Pods-TestBarChartView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SMM8XQDLZK;
+				INFOPLIST_FILE = TestBarChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.summer.TestBarChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C400D2C921ABF89500DDFDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28B43429C9C2DF2D4D38D0E4 /* Pods-TestBarChartViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SMM8XQDLZK;
+				INFOPLIST_FILE = TestBarChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.summer.TestBarChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestBarChartView.app/TestBarChartView";
+			};
+			name = Debug;
+		};
+		C400D2CA21ABF89500DDFDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC84B256B2CE4C21089C2ED6 /* Pods-TestBarChartViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SMM8XQDLZK;
+				INFOPLIST_FILE = TestBarChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.summer.TestBarChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestBarChartView.app/TestBarChartView";
+			};
+			name = Release;
+		};
+		C400D2CC21ABF89500DDFDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF42BADB898C2685C68A334E /* Pods-TestBarChartViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SMM8XQDLZK;
+				INFOPLIST_FILE = TestBarChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.summer.TestBarChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestBarChartView;
+			};
+			name = Debug;
+		};
+		C400D2CD21ABF89500DDFDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80E8D7B28CDC0A271480189 /* Pods-TestBarChartViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SMM8XQDLZK;
+				INFOPLIST_FILE = TestBarChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.summer.TestBarChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestBarChartView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C400D29421ABF89100DDFDFC /* Build configuration list for PBXProject "TestBarChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C400D2C321ABF89500DDFDFC /* Debug */,
+				C400D2C421ABF89500DDFDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C400D2C521ABF89500DDFDFC /* Build configuration list for PBXNativeTarget "TestBarChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C400D2C621ABF89500DDFDFC /* Debug */,
+				C400D2C721ABF89500DDFDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C400D2C821ABF89500DDFDFC /* Build configuration list for PBXNativeTarget "TestBarChartViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C400D2C921ABF89500DDFDFC /* Debug */,
+				C400D2CA21ABF89500DDFDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C400D2CB21ABF89500DDFDFC /* Build configuration list for PBXNativeTarget "TestBarChartViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C400D2CC21ABF89500DDFDFC /* Debug */,
+				C400D2CD21ABF89500DDFDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C400D29121ABF89100DDFDFC /* Project object */;
+}
